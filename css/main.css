@@ -1,0 +1,224 @@
+/***** BASE STYLES *****/
+@font-face {
+    font-family: Better Together;
+    src: url('../font/better-together-script.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Arsenal', sans-serif;
+    color: #2b2b2b;
+}
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HOME *****/
+header {
+    height: 800px;
+    background: url('../img/hero-img.jpeg');
+    background-size: cover;
+}
+ header h1 {
+     font-family: "Vollkorn", serif;
+     font-size: 30px;
+     color: #25dbd5;
+     padding: 1px 0;
+ }
+
+nav {
+    float: right;
+    padding: 16px 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #dedddb;
+    padding-left: 40px;
+}
+
+header h2 {
+    text-align: left;
+    clear: both;
+    font-family: "Vollkorn", serif;
+    font-size: 60px;
+    line-height: 80px;
+    color: #dedddb;
+    padding: 20px 0;
+}
+
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 50px 0;
+}
+
+#about h2 {
+    font-family: "Vollkorn", serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 36px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/***** WORK *****/
+
+#work {
+    background-color: #b6e5e6;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: "Vollkorn", serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #dedddb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    margin-left: 35px;
+    height: 300px;
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul{
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: "Vollkorn", serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #1e9e9a;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 73px;
+}
+
+/*****Case Studies*****/
+.header {
+    height: 80px;
+    background: url('../img/header.png');
+    background-size: cover;
+}
+
+#coming-soon {
+    background-color: #dedddb;
+}
+
+#coming-soon .full-width {
+    padding: 80px 0;
+}
+
+#coming-soon .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#coming-soon img#coming-soon-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 12px solid #ffffff;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    box-shadow: 0 4px 6px rgba(0,0,0,.3);
+}
+
+#coming-soon .centered h1 {
+    font-family: 'Better Together';
+    color: white;
+    font-size: 120px;
+    font-weight: lighter;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
